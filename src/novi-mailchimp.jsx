@@ -7,10 +7,7 @@ const Plugin = {
     name: "novi-plugin-mailchimp",
     title: "Novi Mailchimp",
     description: "Novi Mailchimp description",
-    version: "1.0.2",
-    dependencies: {
-        "plugin": "1.0.1"
-    },
+    version: "1.0.3",
     defaults: {
         querySelector: '[class*="mailchimp-mailform"]'
     },

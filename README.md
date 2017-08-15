@@ -2,7 +2,7 @@
 Novi Builder Plugin for visual [RD Mailchimp](https://github.com/TemplatemonsterPlugins/rd-mailchimp) customization
 
 ## How to Install
-You should follow several simple steps to intall this plugin:
+You should follow several simple steps to install this plugin:
 * Copy the novi-plugin-mailchimp.js file to your path/to/novibuilder/plugins folder.
 * Launch NoviBuilder
 
@@ -10,13 +10,13 @@ You should follow several simple steps to intall this plugin:
 * Change mailchimp signup url
 
 ## Developer Settings
-* querySelector — containes a css selector which defines the Plugin container.
+* querySelector — contains a css selector which defines the Plugin container.
 
 ## How to add RD Mailchimp on your page
 If your website doesn't contain RD Mailchimp follow the instructions below to install it.
 
 ### Include RD Mailchimp files to Website
-Copy the "assets/rd-mailchimp.css" to website's CSS folders respectively and include this files to your website.
+Copy the "assets/rd-mailchimp.css" and assets/rd-mailchimp.js to website's CSS and JS folders respectively and include this files to your website.
 
 ### Add RD Mailchimp HTML Layout
 Add basic HTML markup:
