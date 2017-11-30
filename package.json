@@ -1,6 +1,6 @@
 {
   "name": "@novi_dev/novi-plugin-mailchimp",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Novi mailchimp plugin",
   "main": "dist/novi-plugin-mailchimp.js",
   "repository": {
