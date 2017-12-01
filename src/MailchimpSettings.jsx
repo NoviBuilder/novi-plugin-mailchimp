@@ -24,10 +24,10 @@ export default class ImageSettings extends Component {
         return (
             <div>
                 <span style={{letterSpacing: "0,0462em"}}>Mailchimp Plugin</span>
-                <div style={{fontSize: 13, color: "#6E778A", marginTop: 21}}>{messages.settings.inputPlaceholder}</div>
+                <div style={{fontSize: 13, color: "#6E778A", marginTop: 21}}>{this.messages.settings.inputPlaceholder}</div>
                     <Input style={{marginTop: 10, width: 340}} value={this.state.settings.querySelector} onChange={this.onChange}/>
                 <div style={{marginTop: 30}}>
-                <Button type="primary"  messages={{textContent: messages.settings.submitButton}} onClick={this.saveSettings} />
+                <Button type="primary"  messages={{textContent: this.messages.settings.submitButton}} onClick={this.saveSettings} />
                 </div>
             </div>
         );
