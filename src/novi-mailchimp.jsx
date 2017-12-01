@@ -25,7 +25,7 @@ function onLanguageChange(plugin){
     let messages = Language.getDataByKey("novi-plugin-mailchimp");
     plugin.ui.editor[0].title = messages.editor.title;
     plugin.ui.editor[0].tooltip = messages.editor.tooltip;
-    plugin.ui.editor[0].header = <span>{messages.editor.tooltip}</span>;
+    plugin.ui.editor[0].header[1] = <span>{messages.editor.tooltip}</span>;
     return plugin;
 }
 novi.plugins.register(Plugin);
